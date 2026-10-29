@@ -12,10 +12,8 @@ public static class Arrays
         // The size of the array should be the same as the length provided.
         // Next, I will use a for loop to go through each position of the array.
         // The loop will start at position 0 and continue until it reaches the given length.
-        // For each position, I will calculate the multiple by multiplying the
-        // starting number by the position plus one.
-        // I will store each calculated multiple in the corresponding position
-        // of the array.
+        // For each position, I will calculate the multiple by multiplying the starting number by the position plus one.
+        // I will store each calculated multiple in the corresponding position of the array.
         // After all the multiples have been added to the array, I will return the array. 
 
     double[] multiples = new double[length];
