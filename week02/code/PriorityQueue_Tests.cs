@@ -25,7 +25,7 @@ public class PriorityQueueTests
     [TestMethod]
     // Scenario: Add multiple items with the same highest priority.
     // Expected Result: The items are removed in the same order they were added.
-    // Defect(s) Found: The queue returned Second instead of First because items with the same priority were not kept in FIFO order.
+    // Defect(s) Found: The queue returned Second when First was expected, it happened because items with the same priority were not kept in FIFO order.
     public void TestPriorityQueue_2()
     {
         var priorityQueue = new PriorityQueue();
